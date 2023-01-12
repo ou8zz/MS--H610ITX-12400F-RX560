@@ -7,7 +7,7 @@
 ```
 CPU i5-12400F
 主板 MS挑战者-H610ITX
-内存 Kingston 8G（2400-CL16） * 2 / Tigo 8G（2400-CL16） * 2
+内存 Kingston 8G（2400-CL16） * 2
 显卡 RX560 2G
 网卡 BCM94352z
 SSD SanDisk Extreme Pro 500GB

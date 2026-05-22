@@ -16,6 +16,11 @@ SSD SanDisk Extreme Pro 500GB
 机箱电源 K39套300w电源
 ```
 
+### 更新bios后另一个问题
+ResizeAppleGpuBars 默认值：-1
+在bios中如果开启了 PCI Resizable BAR 可能会卡死。
+如果改为0或者其他值，未知。我当前的显卡RX5300改为0后可以进系统，但是会黑屏。
+
 
 ### 黑苹果遇到的问题
 新主板默认刷的新的支持13代CPU的bios，这个bios是锁CFGLock，并且无法通过OC设置appleCpuPmCfgLock和AppleXcpmCfgLock参数解锁，同时ControlMsrE2.efi设置解锁也不行。版本号为E1.4G，后刷回上一个版本E1.3G或者E1.2G即可。很关键。 
